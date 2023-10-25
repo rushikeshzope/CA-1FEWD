@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+    .container2photos {
+      display: block;
+    }
+  }
+  
+  @font-face {
+    font-family: Custom-font;
+    src: url('https://fonts.googleapis.com/css?family=Cabin');
+  }
+  
+  #background-image {
+    position: absolute;
+    height: 87vh;
+    bottom: 0px;
+    width: 100vw;
+  }
+  body {
+    font-family: 'Custom-font', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+    background-position: inherit;
+    background-repeat: no-repeat;
+  }
+  
+  #header {
+    background-color: #131821;
+    height: 60px;
+    color: white;
+  }
+  
+  #amazonlogo {
+    position: absolute;
+    left: 15px;
+    top: 13px;
+    height: 7vh;
+  }
+  
+  #carticon {
+    position: absolute;
+    right: 60px;
+    top: 10px;
+  }
+  
+  #Cart {
+    position: absolute;
+    right: 35px;
+    top: 25px;
+  }
+  
+  #Returns {
+    position: absolute;
+    right: 150px;
+    top: 15px;
+  }
+  
+  #Orders {
+    position: absolute;
+    right: 140px;
+    top: 30px;
+  }
+  
+  #hello2 {
+    position: absolute;
+    right: 275px;
+    top: 15px;
+  }
+  
+  #Accounts {
+    position: absolute;
+    right: 250px;
+    top: 30px;
+  }
+  
+  #indiaflag {
+    position: absolute;
+    right: 400px;
+    top: 20px;
+  }
+  
+  #hello1 {
+    position: absolute;
+    left: 180px;
+    top: 15px;
+  }
+  
+  #locationicon {
+    height: 3vh;
+    position: absolute;
+    top: 28px;
+    left: 160px;
+  }
+  
+  #Selectaddress {
+    position: absolute;
+    top: 30px;
+    left: 180px;
+  }
+  
+  button {
+    background-image: url('https://github.com/Kalvium-Program/amazon-clone-boilerplate/blob/main/assets/search%20icon.png?raw=true');
+  }
+  
+  #container1 {
+    background-color: #243040;
+  
+    display: flex;
+    color: white;
+  }
+  
+  #container1 p {
+    padding: 10px;
+  }
+  
+  #hamburger {
+    height: 2vh;
+    position: relative;
+    top: 12px;
+    left: 7px;
+  }
+  
+  #lion {
+    position: absolute;
+    right: 245px;
+    top: 65px;
+    height: 4.5vh;
+  }
+  
+  #all {
+    position: absolute;
+    top: 18px;
+    left: 350px;
+    padding: 5px;
+  }
+  
+  #search {
+    position: absolute;
+    top: 18px;
+    left: 398px;
+    height: 3.8vh;
+    width: 87vh;
+  }
+  
+  #searchicon {
+    background-color: #fbbe67;
+    position: absolute;
+    top: 18px;
+    right: 441px;
+    width: 5vh;
+    border: none;
+    height: 3.7vh;
+  }
+  
+  #bino {
+    position: absolute;
+    top: 20px;
+    right: 449px;
+    border-radius: 0px 0px;
+  }
+  
+  #right-arrow {
+    right: 20px;
+    top: 100px;
+  }
+  
+  #container2 {
+    background-color: white;
+    display: block;
+    position: absolute;
+  }
+  
+  .container2photos {
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    background-color: white;
+    padding: 10px;
+    width: 150px;
+    height: 100px;
+  }
+  
